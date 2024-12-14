@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AnalyzeHistoricalData">
+   <children>
+      <Text layoutX="221.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Review Historical Data" wrappingWidth="212.13671875">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#29542d" layoutX="36.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature or Humidity trends from the Past Days:" wrappingWidth="184.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="231.0" layoutY="139.0" prefHeight="40.0" prefWidth="162.0" />
+      <Text fill="#c60d0d" layoutX="94.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Past Weeks:" wrappingWidth="119.826171875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="231.0" layoutY="226.0" prefHeight="247.0" prefWidth="289.0" />
+      <Button layoutX="36.0" layoutY="29.0" mnemonicParsing="false" text="Back" textFill="#ee0909" />
+   </children>
+</AnchorPane>
