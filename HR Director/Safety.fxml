@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="Safety" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Safety">
+   <children>
+      <Label layoutX="10.0" layoutY="36.0" prefHeight="18.0" prefWidth="67.0" text="User Name: " />
+      <Label layoutX="11.0" layoutY="66.0" prefHeight="18.0" prefWidth="61.0" text="Password: " />
+      <TextField layoutX="77.0" layoutY="33.0" />
+      <PasswordField layoutX="78.0" layoutY="63.0" />
+      <Button layoutX="242.0" layoutY="63.0" mnemonicParsing="false" text="Log in " />
+      <Label layoutX="117.0" layoutY="109.0" prefHeight="18.0" prefWidth="462.0" text="                                            Safety and Compliance dashboard" />
+      <ComboBox layoutX="35.0" layoutY="143.0" prefHeight="26.0" prefWidth="89.0" promptText="Safety" />
+      <CheckBox layoutX="133.0" layoutY="156.0" mnemonicParsing="false" text="Matrics" />
+      <CheckBox layoutX="232.0" layoutY="156.0" mnemonicParsing="false" text="Traning" />
+      <CheckBox layoutX="330.0" layoutY="156.0" mnemonicParsing="false" text="Incident Reporting" />
+      <ComboBox layoutX="21.0" layoutY="322.0" prefHeight="26.0" prefWidth="90.0" promptText="Report " />
+      <CheckBox layoutX="143.0" layoutY="327.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="90.0" text="Inspection" />
+      <CheckBox layoutX="275.0" layoutY="328.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Audit" />
+      <Button layoutX="47.0" layoutY="384.0" mnemonicParsing="false" text="Select" />
+      <Button layoutX="243.0" layoutY="384.0" mnemonicParsing="false" text="Submit" />
+      <TableView layoutX="18.0" layoutY="195.0" prefHeight="102.0" prefWidth="635.0">
+        <columns>
+          <TableColumn prefWidth="123.99997520446777" text="Date " />
+          <TableColumn prefWidth="136.80001831054688" text="Incident Cause" />
+            <TableColumn prefWidth="123.99997520446777" text="Employee Name " />
+            <TableColumn prefWidth="123.99997520446777" text="Time" />
+            <TableColumn prefWidth="123.99997520446777" text="Compliance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

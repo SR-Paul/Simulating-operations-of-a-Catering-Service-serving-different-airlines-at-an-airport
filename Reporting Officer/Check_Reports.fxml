@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="Check_Reports" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Check_Reports">
+   <children>
+      <Label layoutX="104.0" layoutY="14.0" prefHeight="32.0" prefWidth="591.0" text="                                                                             Check Reports" />
+      <ComboBox layoutX="62.0" layoutY="71.0" prefWidth="150.0" promptText="Report Types " />
+      <CheckBox layoutX="101.0" layoutY="111.0" mnemonicParsing="false" text="User Check " />
+      <Button layoutX="233.0" layoutY="107.0" mnemonicParsing="false" text="View" />
+      <CheckBox layoutX="101.0" layoutY="159.0" mnemonicParsing="false" text="Transaction checck" />
+      <Button layoutX="233.0" layoutY="155.0" mnemonicParsing="false" text="View" />
+      <CheckBox layoutX="101.0" layoutY="226.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="106.0" text="Maintanance" />
+      <Button layoutX="233.0" layoutY="229.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="42.0" text="View" />
+      <TableView layoutX="288.0" layoutY="100.0" prefHeight="46.0" prefWidth="514.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Activity" />
+            <TableColumn prefWidth="75.0" text="Report Date" />
+            <TableColumn prefWidth="88.7999267578125" text="Report Status" />
+            <TableColumn prefWidth="61.60009765625" text="Sorting" />
+            <TableColumn prefWidth="75.0" text="Filtering" />
+            <TableColumn prefWidth="60.7999267578125" text="Exporting" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="288.0" layoutY="155.0" prefHeight="26.0" prefWidth="150.0" promptText="Payment Methode" />
+      <CheckBox layoutX="455.0" layoutY="159.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="59.0" text="Cash" />
+      <CheckBox layoutX="526.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="67.0" text="Card " />
+      <CheckBox layoutX="604.0" layoutY="161.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="122.0" text="Mobile Banking" />
+      <ComboBox layoutX="333.0" layoutY="187.0" prefWidth="150.0" promptText="Status" />
+      <CheckBox layoutX="501.0" layoutY="191.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="59.0" text="Paid" />
+      <CheckBox layoutX="581.0" layoutY="191.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="78.0" text="Unpaid " />
+      <Button layoutX="693.0" layoutY="187.0" mnemonicParsing="false" text="Submit" />
+      <TableView layoutX="333.0" layoutY="226.0" prefHeight="65.0" prefWidth="527.0">
+        <columns>
+          <TableColumn prefWidth="122.4000244140625" text="Authorization Check" />
+          <TableColumn prefWidth="123.20001220703125" text="Review Pending" />
+            <TableColumn prefWidth="87.199951171875" text="Delivery " />
+            <TableColumn prefWidth="116.7999267578125" text="Equipments Name" />
+            <TableColumn prefWidth="73.60009765625" text="Sorting" />
+        </columns>
+      </TableView>
+      <Button layoutX="118.0" layoutY="324.0" mnemonicParsing="false" text="Confirmed" />
+      <Button layoutX="307.0" layoutY="324.0" mnemonicParsing="false" text="Done" />
+   </children>
+</AnchorPane>

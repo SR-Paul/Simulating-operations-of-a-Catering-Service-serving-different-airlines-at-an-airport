@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="Recruitment_Process" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Recruitment_Process">
+   <children>
+      <TextField layoutX="95.0" layoutY="31.0" />
+      <PasswordField layoutX="96.0" layoutY="79.0" />
+      <Label layoutX="26.0" layoutY="35.0" prefHeight="18.0" prefWidth="70.0" text="User Name:" />
+      <Label layoutX="26.0" layoutY="83.0" prefHeight="18.0" prefWidth="62.0" text="Password : " />
+      <Button layoutX="24.0" layoutY="116.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="190.0" text="Log in " />
+      <Label layoutX="24.0" layoutY="151.0" prefHeight="18.0" prefWidth="696.0" text="                                                               HR Management Dashboard" />
+      <Button layoutX="119.0" layoutY="185.0" mnemonicParsing="false" text="Recruitment" />
+      <TableView layoutX="214.0" layoutY="185.0" prefHeight="56.0" prefWidth="302.0">
+        <columns>
+          <TableColumn prefWidth="61.5999755859375" text="Name " />
+            <TableColumn prefWidth="87.20001220703125" text="Jop position " />
+            <TableColumn prefWidth="63.199981689453125" text="CV" />
+            <TableColumn prefWidth="92.00002441406252" text="Status" />
+        </columns>
+      </TableView>
+      <Button layoutX="119.0" layoutY="248.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="162.0" text="Applicant tracking system" />
+      <Label layoutX="136.0" layoutY="290.0" prefHeight="18.0" prefWidth="362.0" text="                               Schedule and confirmed Interview" />
+      <TableView layoutX="88.0" layoutY="322.0" prefHeight="56.0" prefWidth="528.0">
+        <columns>
+          <TableColumn prefWidth="105.60004425048828" text="Applicant Name" />
+            <TableColumn prefWidth="109.60003662109375" text="Applicant Id" />
+            <TableColumn prefWidth="86.4000244140625" text="Job post " />
+            <TableColumn minWidth="0.0" prefWidth="60.79998779296875" text="Time" />
+            <TableColumn minWidth="2.39990234375" prefWidth="81.60000610351562" text="Date" />
+            <TableColumn minWidth="2.39990234375" prefWidth="81.60000610351562" text="Status" />
+        </columns>
+      </TableView>
+      <Button layoutX="537.0" layoutY="213.0" mnemonicParsing="false" text="Next" />
+      <Button layoutX="144.0" layoutY="400.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="491.0" layoutY="400.0" mnemonicParsing="false" text="Confirmed" />
+   </children>
+</AnchorPane>
