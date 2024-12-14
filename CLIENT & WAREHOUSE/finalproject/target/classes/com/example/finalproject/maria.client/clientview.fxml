@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.maria.client.Clientviewcontroller">
+   <children>
+      <TableView fx:id="table" layoutY="86.0" prefHeight="200.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="namecolumn" prefWidth="193.60003662109375" text="NAME" />
+          <TableColumn fx:id="typecolumn" minWidth="0.0" prefWidth="207.20001220703125" text="TYPE" />
+            <TableColumn fx:id="quantitycolumn" prefWidth="197.5999755859375" text="QUANTITY" />
+        </columns>
+      </TableView>
+      <Button layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="69.0" text="BACK" />
+      <Button layoutX="489.0" layoutY="25.0" mnemonicParsing="false" onAction="#search" prefHeight="26.0" prefWidth="69.0" text="SEARCH" />
+      <Button layoutX="25.0" layoutY="301.0" mnemonicParsing="false" onAction="#delete" prefHeight="26.0" prefWidth="69.0" text="DELETE" />
+      <Button layoutX="502.0" layoutY="307.0" mnemonicParsing="false" onAction="#update" prefHeight="26.0" prefWidth="69.0" text="UPDATE" />
+   </children>
+</AnchorPane>

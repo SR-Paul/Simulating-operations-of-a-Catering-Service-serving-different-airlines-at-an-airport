@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.Dashboardcontroller">
+   <children>
+      <Button layoutX="171.0" layoutY="158.0" mnemonicParsing="false" onAction="#notification" prefHeight="84.0" prefWidth="120.0" style="-fx-background-color: LIGHTBLUE;" text="NOTIFICATION" />
+      <AnchorPane layoutY="50.0" prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: lightblue;">
+         <children>
+            <Label layoutX="95.0" layoutY="19.0" prefHeight="45.0" prefWidth="410.0" text="WELCOME TO SKYCART">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="291.0" layoutY="158.0" mnemonicParsing="false" onAction="#gotoinventory" prefHeight="84.0" prefWidth="120.0" style="-fx-background-color: LIGHTBLUE;" text="GO TO INVENTORY" />
+      <Button layoutX="171.0" layoutY="242.0" mnemonicParsing="false" onAction="#pricecontrol" prefHeight="84.0" prefWidth="120.0" style="-fx-background-color: LIGHTBLUE;" text="PRICE CONTROL" />
+      <Button layoutX="291.0" layoutY="242.0" mnemonicParsing="false" onAction="#analysis" prefHeight="84.0" prefWidth="120.0" style="-fx-background-color: LIGHTBLUE;" text="ANALYSIS" />
+   </children>
+</AnchorPane>
