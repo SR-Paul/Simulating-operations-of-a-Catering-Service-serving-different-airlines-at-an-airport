@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="535.0" prefWidth="794.0" style="-fx-background-color: ffbedc;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cateringmanager_saklaenhaamim_2221380.CateringSchedule">
+   <children>
+      <TableView fx:id="departureTC" layoutX="88.0" layoutY="148.0" prefHeight="265.0" prefWidth="638.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn fx:id="flightNameTC" prefWidth="204.0" text="Flight Name" />
+            <TableColumn fx:id="arrivalTC" prefWidth="112.0" text="Arrival" />
+            <TableColumn prefWidth="88.0" text="Departure" />
+            <TableColumn fx:id="whereTC" prefWidth="120.0" text="Where To" />
+            <TableColumn fx:id="destinatiionTC" prefWidth="120.0" text="Destinaton" />
+        </columns>
+      </TableView>
+      <Label layoutX="273.0" layoutY="61.0" prefHeight="61.0" prefWidth="269.0" style="-fx-background-color: #ff0063;" text="Daily Catering Schedule" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="357.0" layoutY="450.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Return Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
